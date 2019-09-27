@@ -6,8 +6,8 @@
    Case Problem 3
    
    Layout Style Sheet for A Soldier's Scrapbook
-   Author: 
-   Date:   
+   Author: Rose Aponte
+   Date:   9-27-19
    
    Filename: ss_layout.css
 
@@ -15,9 +15,18 @@
 
 
 /* Article Styles */
-
-
-
+article{
+    float:left;
+    width:384px;
+}
+article p:first-of-type::first-line {
+    font-variant: small-caps;
+    font-size: 1.25em;
+}
+article p:first-of-type::first-line::first-letter{
+    font-size: 4em;
+    font-family: serif;
+}
 
 /* First Line and Drop Cap Styles */
 
