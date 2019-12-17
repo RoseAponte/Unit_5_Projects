@@ -62,6 +62,6 @@ div.column80{
 
 /* Grid Spacing Styles */
 div.container, div.row, div[class^="column"], div[class^="cell"], 
-div[class^="a"]{
+div.cell a{
     box-sizing: border-box;
 }
